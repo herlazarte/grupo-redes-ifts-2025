@@ -121,5 +121,14 @@ Un servicio de DHCP es el cual se utiliza para asignar una IP a un dispositivo. 
 **13- ¿Qué es un Proxy?**
 Un proxy se trata de un servidor que recibe las peticiones de un usuario y este las traslada a otro servidor. Una VPN también funciona como un servidor proxy, solamente que está toma todo el tráfico entrante de un usuario, en vez de solamente algunas peticiones.
 
+**17- ¿Qué es un Firewall?**
+Sistema que controla y monitorea el tráfico de red entre una red interna y una red externa (como Internet), permitiendo o bloqueando el acceso a ciertos servicios o aplicaciones según las reglas definidas. Su objetivo basicamente es proteger la red interna de ataques y accesos no autorizados.
+ 
+**18- ¿Qué es una DMZ?**
+Una DMZ (Zona Desmilitarizada) es una red aislada que se encuentra entre una red interna y una red externa (como Internet). La DMZ es una zona neutral que almacena servidores y servicios que necesitan ser accesibles desde Internet, pero que no están directamente conectados a la red interna. De esta manera, se reduce el riesgo de ataques a la red interna.
+
+**19- ¿Qué es un Gateway?**
+Es un dispositivo o sistema que actúa como un punto de acceso o intermediario entre dos redes que utilizan diferentes protocolos o tecnologías. Su función principal es facilitar la comunicación entre estas redes distintas y permitir la transferencia de datos entre ellas
+
 **34- (Individual para cada integrante del grupo) ¿Qué experiencia tienen en redes?**
 Ulises: He configurado una aplicación para producción usando Nginx, creando un subdominio en los registros de DNS con un CNAME y asignando los Certificados con Let's Encrypt.
